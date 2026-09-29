@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style>
+	body{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		margin-top:3%
+	}
+	#container{
+		height: 600px;
+		width: 400px;
+		display: flex;
+		flex-direction: column;
+		margin: 20px;
+		border: 2px solid black;
+		border-radius: 10px;
+	}
+
+	#text-container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 20px;
+	}
+
+	#display{
+		height: 100px;
+		width: 90%;
+		border: 2px solid black;
+		border-radius: 5px;
+	}
+	
+	#keys{
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.box{
+		height: 40%;
+		width: 20%;
+		border: 2px solid black;
+		margin: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+
+</style>
+<body >
+	<div id="container">
+		<div id="text-container">
+			<div id="display"></div>
+			<div id="keys">
+				<div class="box">AC</div>
+				<div class="box">M</div>
+				<div class="box">C</div>
+				<div class="box">+</div>
+				<div class="box">1</div>
+				<div class="box">2</div>
+				<div class="box">3</div>
+				<div class="box">-</div>
+				<div class="box">4</div>
+				<div class="box">5</div>
+				<div class="box">6</div>
+				<div class="box">*</div>
+				<div class="box">7</div>
+				<div class="box">8</div>
+				<div class="box">9</div>
+				<div class="box">/</div>
+				<div class="box">0</div>
+				<div class="box">00</div>
+				<div class="box">%</div>
+				<div class="box">Enter</div>
+			</div>
+		</div>	
+	</div>
+</body>
+
+<script>
+	let keys = document.querySelectorAll(".box");
+	let display = document.getElementById("display");
+	let s = display.innerText;
+	keys.forEach((key) => {
+		
+	})
+</script>
+</html>
