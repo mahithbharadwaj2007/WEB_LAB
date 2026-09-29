@@ -90,11 +90,38 @@
 </body>
 
 <script>
-	let keys = document.querySelectorAll(".box");
-	let display = document.getElementById("display");
-	let s = display.innerText;
-	keys.forEach((key) => {
-		
-	})
+	let d = document.querySelector("#display")
+        let keys = document.getElementsByClassName("box")
+        for(let i=0;i<keys.length;i++){
+            // console.log(keys[i].innerHTML)
+            keys[i].addEventListener("click",(e)=>{
+                if(e.target.innerHTML == "Enter"){
+                    try{
+                        let local = eval(d.innerHTML);
+
+	                    if (
+	                        local === undefined ||
+	                        local === null ||
+	                        !Number.isFinite(local)
+	                    ) {
+	                        local = "";
+	                    }
+            			d.innerHTML = local;
+        			}catch(e){
+            			d.innerHTML=""
+       			 }
+
+                }else if(e.target.innerHTML == "AC"){
+                    d.innerHTML = ""
+                }else if(e.target.innerHTML == "C"){
+                    let ref = d.innerHTML
+                    if(ref.length != 0){
+                        d.innerHTML = ref.substring(0,ref.length-1)
+                    }
+                }else{
+                    d.innerHTML += e.target.innerHTML
+                }
+            })
+        }
 </script>
 </html>
