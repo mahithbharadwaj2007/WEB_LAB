@@ -7,7 +7,7 @@
         <COLLEGE>BMSIT</COLLEGE>
         <PROGRAMME>CSE</PROGRAMME>
         <YEAR>2024</YEAR>
-        <EMAIL>mahithbharadwaj@example.com</EMAIL>
+        <EMAIL>mahithbharadwaj@gmail.com</EMAIL>
     </STUDENT>
     <STUDENT>
         <USN>1TD24CS348</USN>
@@ -15,7 +15,7 @@
         <COLLEGE>BMSIT</COLLEGE>
         <PROGRAMME>CSE</PROGRAMME>
         <YEAR>2024</YEAR>
-        <EMAIL>yuvan@example.com</EMAIL>
+        <EMAIL>yuvan@gmail.com</EMAIL>
     </STUDENT>
     <STUDENT>
         <USN>1TD24CS096</USN>
@@ -23,6 +23,6 @@
         <COLLEGE>BMSIT</COLLEGE>
         <PROGRAMME>CSE</PROGRAMME>
         <YEAR>2024</YEAR>
-        <EMAIL>shreyasiyer96@example.com</EMAIL>
+        <EMAIL>shreyasiyer96@gmail.com</EMAIL>
     </STUDENT>
 </STUDENTDATA>
