@@ -2,27 +2,27 @@
 <?xml-stylesheet type="text/css" href="program4.css"?>
 <STUDENTDATA>
     <STUDENT>
-        <USN>1BY22CS001</USN>
-        <NAME>Arjun Kumar</NAME>
+        <USN>1TD24CS134</USN>
+        <NAME>M Mahith Bharadwaj</NAME>
         <COLLEGE>BMSIT</COLLEGE>
         <PROGRAMME>CSE</PROGRAMME>
-        <YEAR>2022</YEAR>
-        <EMAIL>arjun.kumar@example.com</EMAIL>
+        <YEAR>2024</YEAR>
+        <EMAIL>mahithbharadwaj@example.com</EMAIL>
     </STUDENT>
     <STUDENT>
-        <USN>1BY22CS014</USN>
-        <NAME>Priya Sharma</NAME>
+        <USN>1TD24CS348</USN>
+        <NAME>Yuvan R</NAME>
         <COLLEGE>BMSIT</COLLEGE>
         <PROGRAMME>CSE</PROGRAMME>
-        <YEAR>2022</YEAR>
-        <EMAIL>priya.sharma@example.com</EMAIL>
+        <YEAR>2024</YEAR>
+        <EMAIL>yuvan@example.com</EMAIL>
     </STUDENT>
     <STUDENT>
-        <USN>1BY23CS027</USN>
-        <NAME>Rahul Reddy</NAME>
+        <USN>1TD24CS096</USN>
+        <NAME>Shreyas Iyer</NAME>
         <COLLEGE>BMSIT</COLLEGE>
         <PROGRAMME>CSE</PROGRAMME>
-        <YEAR>2023</YEAR>
-        <EMAIL>rahul.reddy@example.com</EMAIL>
+        <YEAR>2024</YEAR>
+        <EMAIL>shreyasiyer96@example.com</EMAIL>
     </STUDENT>
 </STUDENTDATA>
